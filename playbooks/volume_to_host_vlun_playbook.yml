@@ -38,7 +38,7 @@
         storage_system_ip="{{ storage_system_ip }}"
         storage_system_username="{{ storage_system_username }}"
         storage_system_password="{{ storage_system_password }}"
-        state=unexport_volume_to_host 
+        state=unexport_volume_from_host 
         volume_name="{{ vlun_volume_name }}"
         host_name="{{ vlun_host_name }}" 
         lunid="{{ lunid }}" 
